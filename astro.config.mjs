@@ -10,6 +10,11 @@ export default defineConfig({
   base: "/sabuj-ui/",
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
   },
   integrations: [react()],
 })
