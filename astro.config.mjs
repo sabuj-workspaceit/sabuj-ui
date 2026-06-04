@@ -8,7 +8,7 @@ import react from "@astrojs/react"
 export default defineConfig({
   // You can change this to your actual production domain
   site: "https://sabujui.com",
-
+  base: "/sabuj-ui/",
   vite: {
     plugins: [tailwindcss()],
     server: {
