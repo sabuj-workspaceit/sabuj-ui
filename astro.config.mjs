@@ -6,8 +6,7 @@ import react from "@astrojs/react"
 
 // https://astro.build/config
 export default defineConfig({
-  // You can change this to your actual production domain
-  site: "https://sabujui.com",
+  site: "https://sabuj0338.github.io",
   base: "/sabuj-ui/",
   vite: {
     plugins: [tailwindcss()],
@@ -17,6 +16,5 @@ export default defineConfig({
       },
     },
   },
-
-  integrations: [react()]
+  integrations: [react()],
 })
